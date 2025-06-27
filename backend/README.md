@@ -1,5 +1,13 @@
 # ✅ Como rodar o projeto
 
+> Crie um arquivo `.env`
+>
+> Copie o conteudo do arquivo `.env.example`
+>
+> Cole no arquivo `.env` criado
+
+## comandos para rodar o backend
+
 > Instala todas as dependências PHP do Laravel.
 
 ```bash
