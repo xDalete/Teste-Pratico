@@ -1,4 +1,4 @@
-# ✅ Como rodar o projeto
+# Como rodar o backend
 
 > Crie um arquivo `.env`
 >

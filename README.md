@@ -44,3 +44,83 @@ O sistema deve permitir que um estudante:
 
 * Senhas armazenadas com hash padrão Laravel.
 * Todas as rotas de dados sensíveis protegidas por middleware `auth:sanctum`.
+
+---
+
+## Como rodar o backend
+
+> Crie um arquivo `.env`
+>
+> Copie o conteudo do arquivo `.env.example`
+>
+> Cole no arquivo `.env` criado
+
+## comandos para rodar o backend
+
+> Instala todas as dependências PHP do Laravel.
+
+```bash
+    composer install
+```
+
+> Gera a chave da aplicação (`APP_KEY`) no `.env` para encriptação.
+
+```bash
+    php artisan key:generate
+```
+
+> Cria todas as tabelas do banco de dados.
+
+```bash
+    php artisan migrate
+```
+
+> Popula o banco com dados iniciais de teste.
+
+```bash
+    php artisan db:seed
+```
+
+> Inicia o servidor Laravel acessível pela rede local.
+
+```bash
+    php artisan serve --host=0.0.0.0
+```
+
+---
+
+## Como rodar o frontend
+
+> Instala todas as bibliotecas do projeto React Native.
+
+```bash
+    npm install
+```
+
+---
+
+> Crie um arquivo `.env` na raiz do projeto com a URL da API:
+>
+> Substitua pelo IP da máquina onde o Laravel está rodando.
+
+```env
+    API_URL=http://seu.ip:8000/api
+```
+
+> Exemplo
+
+```env
+    API_URL=http://192.168.100.4:8000/api
+```
+
+> Inicia o servidor de desenvolvimento Expo.
+
+```bash
+    npm start
+```
+
+---
+
+> Escaneie o QR code com o app **Expo Go** no seu celular.
+>
+> O app será carregado automaticamente no dispositivo.

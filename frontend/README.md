@@ -1,4 +1,4 @@
-# ✅ Como rodar o frontend
+# Como rodar o frontend
 
 > Instala todas as bibliotecas do projeto React Native.
 
@@ -30,6 +30,6 @@
 
 ---
 
-- Escaneie o QR code com o app **Expo Go** no seu celular.
-
+> Escaneie o QR code com o app **Expo Go** no seu celular.
+>
 > O app será carregado automaticamente no dispositivo.
