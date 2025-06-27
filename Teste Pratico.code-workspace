@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "Teste-prático-backend",
+      "path": "backend"
+    },
+    {
+      "name": "Teste-prático-frontend",
+      "path": "frontend"
+    }
+  ]
+}
