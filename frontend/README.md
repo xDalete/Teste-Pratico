@@ -13,13 +13,13 @@
 > Substitua pelo IP da máquina onde o Laravel está rodando.
 
 ```env
-    API_URL=http://seu.ip:8000/api
+    EXPO_PUBLIC_API_BASE_URL=http://seu.ip:8000/api
 ```
 
 > Exemplo
 
 ```env
-    API_URL=http://192.168.100.4:8000/api
+    EXPO_PUBLIC_API_BASE_URL=http://192.168.100.4:8000/api
 ```
 
 > Inicia o servidor de desenvolvimento Expo.
